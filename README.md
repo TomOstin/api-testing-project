@@ -69,6 +69,13 @@ def test_get_user_by_id():
     user = get_user_by_id(1)
     assert user["id"] == 1
     validate_user_schema(user, user_schema)
+    
+---
+## 🧪 Тестовый отчёт
+
+Пример отчёта после запуска тестов:
+
+![Пример HTML отчёта](report_preview.png)
 
 ---
 
